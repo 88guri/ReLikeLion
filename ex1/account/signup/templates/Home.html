@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <a href="{% url 'main' %}"><button type="logout">logout</button></a>
+    <p><strong>user name:</strong> {{ user.name }}</p>
+    <p><strong>nickname:</strong> {{ user.nickname }}</p>
+    <p><strong>major:</strong> {{ user.major }}</p>
+    <p><strong>id:</strong> {{ user.id }}</p>
+    <p><strong>email:</strong> {{ user.email }}</p>
+    <p><strong>introduction:</strong> {{ user.introduction }}</p>
+    <p><strong>hobby:</strong> {{ user.hobby }}</p>
+    <p><strong>favorite food:</strong> {{ user.favorite_food }}</p>
+</body>
+</html>
